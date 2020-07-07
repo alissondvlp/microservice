@@ -1,0 +1,8 @@
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/entregadordb?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    database: MYSQL
